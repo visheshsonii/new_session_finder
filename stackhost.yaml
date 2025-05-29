@@ -11,7 +11,7 @@ commands:
   package:
     - ""  # Add any required system packages here if needed
   start:
-    - "python new_session_finder.py"
+    - "python3 new_session_finder.py"
 
 # Optional environment variables section, add if needed
 # env:
