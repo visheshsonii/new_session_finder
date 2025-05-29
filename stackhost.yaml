@@ -9,7 +9,9 @@ commands:
   build:
     - "pip install -r requirements.txt"
   package:
-    - ""  # Add any required system packages here if needed
+    - "ffmpeg"      # Required for media processing
+    - "libmagic"    # Required for file type detection
+    - "curl"        # Optional, for making HTTP requests
   start:
     - "python3 new_session_finder.py"
 
