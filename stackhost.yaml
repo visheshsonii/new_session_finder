@@ -1,0 +1,18 @@
+user:
+  name: V I S H E S H  # Replace with your StackHost username
+  github: visheshsonii    # Replace with your GitHub username
+
+language: "python"
+python_version: "3.10"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  package:
+    - ""  # Add any required system packages here if needed
+  start:
+    - "python new_session_finder.py"
+
+# Optional environment variables section, add if needed
+# env:
+#   - "ENVIRONMENT=production"
