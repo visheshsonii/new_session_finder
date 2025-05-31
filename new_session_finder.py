@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # -- SET YOUR CREDENTIALS HERE --
-API_ID = 24489252
-API_HASH = '564841ede5655a3bed882162e4fe41a1'
+API_ID = 23447012
+API_HASH = '01251236b75d854c3923ca430c0d5d7a'
 BOT_TOKEN = '8081659905:AAFAkK62hX4FSYYJrTm8Mbq5JZbVxK9ukaw'
 
 # Telegram group chat ID (numeric)
